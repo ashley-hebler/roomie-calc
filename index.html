@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Roomie Rent</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Roomie Rent <span class="subtitle">Calculator</span></h1>
+            </header>
+            <div class="row">
+                <div class="widget widget--1">
+                    <div class="col-xs-12">
+                        <div class="field">
+                            <label>
+                            Rent
+                            </label>
+                            <input type="text" class="input rent" value="466">
+                        </div>
+                        <div class="field">
+                            <label>
+                            Electricity
+                            </label>
+                        
+                            <input type="text" class="input elect">
+                        </div>
+                        <div class="field">
+                            <label>
+                            Gas
+                            </label>
+                            <input type="text" class="input gas">
+                        </div>
+
+                        <div class="field">
+                            <label>
+                            Cable/Internet
+                            </label>
+                            <input type="text" class="input cable">
+                        </div>
+                        <div class="field">
+                            <label>
+                            Insurance
+                            </label>
+                            <input type="text" class="input insurance" value="160">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <div class="results widget widget--2">
+                        <div class="row">
+                            <div class="hidden-xs col-sm-6">
+                                <img src="matt.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-sm-6">
+                                <h2>Matt's Total:</h2>
+                                <div class="total total--2">
+                                    <input type="text" class="total" disabled="disabled" id="resultMatt">
+                                </div>
+                                
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="results widget widget--3">
+                        <div class="row">
+                            <div class="hidden-xs col-xs-12 col-sm-6">
+                                <img src="ashley.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
+                                <h2>Ashley's Total:</h2>
+                                <div class="total total--3">
+                                    <input type="text" class="total" disabled="disabled" id="resultAsh">
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+
+   
+        
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

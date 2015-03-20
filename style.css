@@ -1,0 +1,100 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700|Merriweather:400,900italic);
+body{
+	background: #1ABC9C;
+	text-align: center;
+	padding: 50px 0;
+	color: #fff;
+	font-family: "Noto Sans";
+}
+h1{
+	font-family: "Merriweather", sans-serif;
+	font-style: italic;
+	letter-spacing: .025em;
+}
+h2{
+	font-family: "Merriweather", sans-serif;
+	font-weight: normal;
+	font-size: 26px;
+}
+input{
+	border: none;
+	background: none;
+	font-size: 18px;
+	border-bottom: 1px solid #1ABC9C;
+	text-align: center;
+}
+
+input:focus{
+	outline: none;
+}
+
+input.total{
+	font-size: 30px;
+	border-bottom: none;
+	width: 60%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle
+}
+label{
+	min-width: 160px;
+
+}
+
+.field{
+	margin-bottom: 20px;
+}
+
+
+.widget{
+	overflow: hidden;
+	border-radius: 15px;
+	background: #16A085;
+	margin-bottom: 15px;
+	padding: 20px;
+}
+.total{
+	border-radius: 15px;
+}
+.total:before{
+	content: '$';
+	vertical-align: super;
+	font-size: 16px;
+}
+.widget--1{
+	padding: 30px 0;
+	margin: 0 15px 30px;
+}
+
+.widget--2{
+	background: #2980B9;
+}
+
+.total--2{
+
+	background: #3498DB;
+}
+
+.widget--3{
+	background: #C0392B;
+}
+
+.total--3{
+	background: #E74C3C;
+}
+
+
+
+.results img{
+	width: 100%;
+}
+
+@media only screen and (min-width: 768px){
+	input{
+		text-align: left;
+	}
+	.results{
+		padding-right: 30px;
+	}
+}
+
